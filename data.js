@@ -87,22 +87,25 @@ const MUNDIAL_DATA = {
     {home:"Jordania",away:"Argelia",fecha:"22 jun",hora:"9:00 PM CST",prob:{home:15.9,away:61.4,draw:22.7}}
   ],
 
-  // Tabla de goleadores — fuente: prensa especializada (Olympics, RPP, 365scores), 20 jun 2026
+  // Tabla de goleadores — fuente: La Nación, 18 jun 2026 (tras fecha 2 de grupos)
   goleadores: [
-    {jugador:"Lionel Messi", pais:"Argentina", goles:3, asist:0, equipo:"Inter Miami"},
-    {jugador:"Jonathan David", pais:"Canadá", goles:3, asist:0, equipo:"Juventus"},
+    {jugador:"Lionel Messi", pais:"Argentina", goles:3, asist:0, equipo:"Inter Miami", nota:"Hat-trick vs. Argelia"},
+    {jugador:"Jonathan David", pais:"Canadá", goles:3, asist:0, equipo:"Juventus", nota:"Hat-trick vs. Qatar"},
+    {jugador:"Kylian Mbappé", pais:"Francia", goles:2, asist:0, equipo:"Real Madrid"},
+    {jugador:"Erling Haaland", pais:"Noruega", goles:2, asist:0, equipo:"Manchester City"},
+    {jugador:"Harry Kane", pais:"Inglaterra", goles:2, asist:0, equipo:"Bayern Múnich"},
+    {jugador:"Kai Havertz", pais:"Alemania", goles:2, asist:0, equipo:"Arsenal"},
     {jugador:"Cyle Larin", pais:"Canadá", goles:2, asist:0, equipo:"Mallorca"},
     {jugador:"Elijah Just", pais:"Nueva Zelanda", goles:2, asist:0, equipo:"-"},
-    {jugador:"Erling Haaland", pais:"Noruega", goles:2, asist:0, equipo:"Manchester City"},
     {jugador:"Folarin Balogun", pais:"Estados Unidos", goles:2, asist:0, equipo:"Monaco"},
-    {jugador:"Ismael Saibari", pais:"Marruecos", goles:2, asist:0, equipo:"PSV"},
-    {jugador:"Julián Quiñones", pais:"Colombia", goles:1, asist:0, equipo:"Club América", nota:"Anotó el primer gol del torneo"}
+    {jugador:"Yasin Ayari", pais:"Suecia", goles:2, asist:0, equipo:"Brighton"},
+    {jugador:"Johan Manzambi", pais:"Suiza", goles:2, asist:0, equipo:"Friburgo"}
   ],
 
-  // Asistidores destacados (estimado a partir de eventos de partidos jugados y cobertura de prensa)
+  // Asistidores destacados (a partir de cobertura de prensa de fecha 1 y 2)
   asistidores: [
+    {jugador:"Cody Gakpo", pais:"Países Bajos", asist:2, equipo:"Liverpool"},
     {jugador:"Bruno Fernandes", pais:"Portugal", asist:1, equipo:"Manchester United"},
-    {jugador:"Cody Gakpo", pais:"Países Bajos", asist:1, equipo:"Liverpool"},
     {jugador:"Rodrigo De Paul", pais:"Argentina", asist:1, equipo:"Atlético Madrid"},
     {jugador:"Raphinha", pais:"Brasil", asist:1, equipo:"Barcelona"}
   ],
@@ -126,7 +129,7 @@ const MUNDIAL_DATA = {
       pais:"Portugal",
       club:"Al Nassr FC",
       edad:41,
-      mundial:"Su 5º Mundial (2006, 2010, 2014, 2018, 2022, 2026)",
+      mundial:"Su 6º Mundial (2006, 2010, 2014, 2018, 2022, 2026)",
       situacion:"Titular confirmado. Jugó los 90 minutos completos en el empate 1-1 ante RD del Congo en el debut de Portugal.",
       datoClave:"Es el máximo goleador histórico de la selección portuguesa y de la historia del fútbol internacional masculino. Este sería su último Mundial como profesional según ha insinuado en entrevistas recientes."
     },
@@ -136,8 +139,8 @@ const MUNDIAL_DATA = {
       club:"Inter Miami",
       edad:38,
       mundial:"Su 6º Mundial (2006, 2010, 2014, 2018, 2022, 2026)",
-      situacion:"Titular y en plena forma: lidera la tabla de goleadores del torneo con 3 goles tras la goleada 3-0 de Argentina ante Argelia en el debut.",
-      datoClave:"Llega como defensor del título conquistado en Qatar 2022. Con 16 goles históricos en Mundiales, está a un paso de igualar el récord de Miroslav Klose (16) y solo Mbappé lo amenaza a futuro."
+      situacion:"Titular y en plena forma: lidera la tabla de goleadores del torneo con un hat-trick (3 goles) en la goleada 3-0 de Argentina ante Argelia en el debut.",
+      datoClave:"Con ese triplete llegó a 16 goles históricos en Mundiales, igualando el récord de Miroslav Klose. Solo Mbappé (14 goles) amenaza esa marca a futuro."
     },
     {
       nombre:"Neymar Jr.",
